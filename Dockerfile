@@ -1,5 +1,5 @@
 # Stage 1: Build the dependencies in a slim environment
-FROM python:3.9-slim-buster as builder
+FROM python:3.9-slim AS builder
 
 # Set the working directory
 WORKDIR /var/task
